@@ -106,10 +106,23 @@ The analysis focuses on:
 - Kaggle Dataset
 
 ---
-
 ## How to Run the Project
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sql-ecommerce-analytics.git
+git clone https://github.com/virajpatil23/sql-ecommerce-analytics.git
+```
+### 2. Import Dataset
+- Download the dataset from the Kaggle link above
+- Open MySQL Workbench
+- Create database:
+
+```sql
+CREATE DATABASE ecommerce_db;
+```
+- Use Table Data Import Wizard or `LOAD DATA INFILE` to import the CSV into the `orders` table
+
+### 3. Run the Queries
+- Open `ecommerce_analysis.sql` in MySQL Workbench
+- Execute queries individually or all at once
